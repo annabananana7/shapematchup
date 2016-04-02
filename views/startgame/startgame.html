@@ -1,0 +1,46 @@
+<div id="startgame" class="startgame" ng-controller="StartGameController">
+	<div class="game-container">
+		<div class="row">
+			<div class="game-details col-md-4">
+				<div class="row">
+					<div class="col-md-12">
+						<label>Next Shape:</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 shape-container">
+						{{next-shape}}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<label>Pattern to Match:</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 shape-container">
+						{{pattern}}
+					</div>
+				</div>
+			</div>
+			<div class="gameplay col-md-8">
+				{{gameplay}}
+			</div>
+		</div>
+	</div>
+	
+	<div class="in-game-button-container">
+		<div class="row">
+	   		<div class="col-md-12">
+	   			<div class="row">
+	   				<div class="col-md-6">
+	       				<a class="btn btn-primary pull-right" href="#/home">Main Menu</a>
+       				</div>
+       				<div class="col-md-6">
+	       				<a class="btn btn-primary" href="#/newgame">New Game</a>
+       				</div>
+   				</div>
+	       	</div>
+	   	</div>
+	</div>
+</div>

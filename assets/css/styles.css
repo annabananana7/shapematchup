@@ -1,0 +1,103 @@
+body {
+	background-image: url("../background2.jpg");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.container {
+    background: rgba(255,255,255,.7);
+    height: 600px;
+    margin-top: 25px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 70px;
+}
+
+.header h2 {
+	margin-bottom: 100px;
+	font-size: 28px;
+}
+
+.button-container {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+a.btn {
+	width: 200px;
+	font-size: 16px;
+}
+
+.sub-header h1 {
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+
+.text-container {
+	font-size: 36px;
+	margin: 25px;
+}
+
+.main-menu {
+	margin-top: 75px;
+}
+
+.new-game-header h1 {
+	margin-bottom: 25px;
+}
+
+.pattern-container {
+	text-align: center;
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.start-game {
+	margin-top: 25px;
+}
+
+.game-container {
+	height: 500px;
+}
+
+.game-details {
+	margin-top: 15px;
+	text-align: center;
+	height: 500px;
+}
+
+.game-details label {
+	margin: 10px 0 15px;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid;
+    background-color: #fff;
+}
+
+.row .shape-container {
+	height: 175px;
+	width: 200px;
+	margin: 0 auto;
+	float: none;
+	border: 1px solid;
+	background-color: #fff;
+}
+
+.gameplay {
+	text-align: center;
+	height: 500px;
+	border: 1px solid;
+	background-color: #fff;
+}
+.in-game-button-container {
+	margin-top: 25px;
+}

@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bower.json' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of C:\Users\Anna\workspace\ShapeMatchUp\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Anna\workspace\ShapeMatchUp\node_modules\bower\package.json
+6 verbose readDependencies loading dependencies from C:\Users\Anna\workspace\ShapeMatchUp\package.json
+7 silly cache add args [ 'bower.json', null ]
+8 verbose cache add spec bower.json
+9 silly cache add parsed spec Result {
+9 silly cache add   raw: 'bower.json',
+9 silly cache add   scope: null,
+9 silly cache add   name: null,
+9 silly cache add   rawSpec: 'bower.json',
+9 silly cache add   spec: 'C:\\Users\\Anna\\workspace\\ShapeMatchUp\\bower.json',
+9 silly cache add   type: 'local' }
+10 silly addLocalTarball shasum (computed) 74f6e697cba8dbd4f23f693331b3811d0f8c100e
+11 verbose addTmpTarball C:\Users\Anna\workspace\ShapeMatchUp\bower.json not in flight; adding
+12 verbose correctMkdir C:\Users\Anna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+13 verbose addTmpTarball validating metadata from C:\Users\Anna\workspace\ShapeMatchUp\bower.json
+14 verbose tar unpack C:\Users\Anna\workspace\ShapeMatchUp\bower.json
+15 verbose tar unpacking to C:\Users\Anna\AppData\Local\Temp\npm-188-4ea40f82\unpack-ca69b59f41bb
+16 silly gentlyRm C:\Users\Anna\AppData\Local\Temp\npm-188-4ea40f82\unpack-ca69b59f41bb is being purged
+17 verbose gentlyRm don't care about contents; nuking C:\Users\Anna\AppData\Local\Temp\npm-188-4ea40f82\unpack-ca69b59f41bb
+18 silly gunzTarPerm modes [ '777', '666' ]
+19 error not a package C:\Users\Anna\workspace\ShapeMatchUp\bower.json
+20 error addLocal Could not install C:\Users\Anna\workspace\ShapeMatchUp\bower.json
+21 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Anna\AppData\Local\Temp\npm-188-4ea40f82\unpack-ca69b59f41bb\package.json'
+21 verbose stack     at Error (native)
+22 verbose cwd C:\Users\Anna\workspace\ShapeMatchUp
+23 error Windows_NT 6.3.9600
+24 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bower.json"
+25 error node v4.4.0
+26 error npm  v2.14.20
+27 error path C:\Users\Anna\AppData\Local\Temp\npm-188-4ea40f82\unpack-ca69b59f41bb\package.json
+28 error code ENOENT
+29 error errno -4058
+30 error syscall open
+31 error enoent ENOENT: no such file or directory, open 'C:\Users\Anna\AppData\Local\Temp\npm-188-4ea40f82\unpack-ca69b59f41bb\package.json'
+31 error enoent This is most likely not a problem with npm itself
+31 error enoent and is related to npm not being able to find a file.
+32 verbose exit [ -4058, true ]
